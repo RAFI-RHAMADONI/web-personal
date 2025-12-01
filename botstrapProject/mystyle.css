@@ -1,0 +1,41 @@
+.cus-banner{
+    background-image: url(gambarProjectCss/background.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-pro{
+    transform: rotate();
+    background-image: url(gambarProjectCss/canva.png);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+.banner-guest{
+    transform: rotate();
+    background-image: url(gambarProjectCss/canva.png);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+
+
+
+
+.smt-home{
+    scroll-margin-top: 40px;
+}
+.smt-profile{
+    scroll-margin-top: 65px;
+}
+.smt-gallery{
+    scroll-margin-top: 65px;
+}
+.smt-article{
+    scroll-margin-top: 65px;
+}
+.smt-guestbook{
+    scroll-margin-top: 65px;
+}

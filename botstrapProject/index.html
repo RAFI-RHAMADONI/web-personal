@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mystyle.css">
+    
+</head>
+<body>
+    <!--navbar awal-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary sticky-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <!--brand/logo awal-->
+            <a class="navbar-brand" href="#">
+            <img class="rounded-circle" src="gambarProjectCss/gambar1.jpg" alt="Bootstrap" width="30" height="30">
+            </a>
+            <!--brand/logo-->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Muhammad Rafi Rhamadoni</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav nav-pills">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#gallery">gallery</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#article">article</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#guestbook">guestbook</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--navbar akhir-->
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <!--banner awal-->
+        <div id="home" class="container-fluid cus-banner d-flex align-items-center smt-home mb-5" >
+            <div class="text-center">
+                
+                <h1 class="text-light ">Minat saya</h1>
+                <p class="container text-light ">haii teman teman perkenalkan saya m.rafi rhamadoni. <br>
+                    saya mahasiswa UIN Suska Riau yang sedang menempuh<br>
+                    jenjang pendidikan S1 Sistem Informasi. saya punya ketertarikan kuat<br>
+                    untuk belajar teknologi dari kelas 1 MTS/SMP</p>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">Ayo join</button>
+                
+                <!-- Modal awal-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Hubungi kami</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row justify-content-center">
+                                    <div class="col-4">
+                                        <a href="https://wa.me/6285837569337" target="_blank">
+                                            <img  width="40%" class="" src="gambarProjectCss/logoWA.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="https://t.me/m_rafi_rhamadoni" target="_blank">
+                                            <img  width="40%" class="" src="gambarProjectCss/logoTELE.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-4">
+                                        <p>lewat wa</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <p>lewat telegram</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal akhir-->
+            </div>
+        </div>
+        <!--banner akhir-->
+        <hr>
+        <!--profile awal-->
+        <div id="profile" class="container-fluid mt-3 smt-profile banner-pro">
+            <h1 class="text-center pb-3 pt-2">~ profile ~</h1>
+            <div class="row pb-5">
+                <div class="col-4 ">
+                    <img class="rounded-circle w-100" src="gambarProjectCss/gambar5001.png" alt="">
+                </div>
+                <div class="col-8">
+                    <p class="mt-5 top-5">Hi everyone, I'm Muhammad Rafi Rhamadoni, I'm an information systems student at Sultan Syarif Kasim State Islamic University, Riau. Saya adalah anak kedua dari dua bersaudara yang lahir di tengah keluarga sederhana. Saya dilahirkan di Klinik PTPN 5 Pekanbaru, Riau. Perjalanan pendidikan saya dimulai di tingkat SMP dengan bersekolah di MTs Al Muhajirin Tapung, kemudian dilanjutkan ke jenjang SMA di SMA Negeri 2 Tapung. Setelah menyelesaikan pendidikan menengah, pada tahun 2025 saya melanjutkan studi ke Universitas Islam Negeri Sultan Syarif Kasim (UIN Suska) Riau, dengan memilih program studi Sistem Informasi. Alasan saya memilih jurusan tersebut adalah karena ketertarikan yang besar terhadap dunia teknologi dan keinginan untuk mempelajarinya lebih mendalam.</p>
+                </div>
+            </div>
+        </div>
+        <!--profile akhir-->
+        <hr>
+        <!--gallery awal-->
+        <div id="gallery" class="container-fluid smt-gallery w-50 mb-5 ">
+            <h1 class="text-center">~ Galerry ~</h1>
+
+            <div id="carouselExample" class="carousel slide ">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="gambarProjectCss/gambar5004.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="gambarProjectCss/gambar5002.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="gambarProjectCss/gambar5001.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+
+        </div>
+            <!--gallery akhir-->
+
+
+        <hr>
+        
+        <!--article awal-->
+        <div id="article" class="container smt-article mb-5">
+            <h1 class="text-center mb-5">~ article ~</h1>
+            <div class="row">
+                
+                <!-- awal article 1-->
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        
+                        <a data-bs-toggle="modal" data-bs-target="#gambarArticle1">
+                            <img src="gambarProjectCss/ss1.png" class="card-img-top" alt="...">
+                        </a>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="gambarArticle1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl"">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        
+                                    </div>
+                                    <div class="modal-body">
+                                        <img class="img-thumbnail" src="gambarProjectCss/ss1.png">
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">Tutorial HTML</h5>
+                            <p class="card-text">Cara membuat table di HTML</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#article1">Lihat</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="article1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>klik link ini untuk melihat codenya <a href="file/file2.pdf" target="_blank"> Di Sini</a></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--akhir article 1-->
+                
+                <!--awal article 2-->
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        
+                        <a data-bs-toggle="modal" data-bs-target="#gambarArticle2">
+                            <img src="gambarProjectCss/ss2.png" class="card-img-top" alt="...">
+                        </a>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="gambarArticle2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl"">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    
+                            </div>
+                            <div class="modal-body">
+                                <img class="img-thumbnail" src="gambarProjectCss/ss2.png">
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">Tutorial HTML</h5>
+                            <p class="card-text">Cara membuat form menggunakan table di HTML</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#article2">Lihat</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="article2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>klik link ini untuk melihat codenya <a href="file/file1.pdf" target="_blank"> Di Sini</a></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--akhir article 2-->
+                
+                <!--awal article 3-->
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        
+                        <a data-bs-toggle="modal" data-bs-target="#gambarArticle3">
+                            <img src="gambarProjectCss/ss3.png" class="card-img-top" alt="...">
+                        </a>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="gambarArticle3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl"">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                </div>
+                                <div class="modal-body">
+                                    <img class="img-thumbnail" src="gambarProjectCss/ss3.png">
+                                </div>
+                                <div class="modal-footer">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Kumpulan Manusia ganteng menurut CNN</h5>
+                        <p class="card-text">Manusia terganteng di UIN Suska Riau</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#article3">Lihat</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="article3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img class="w-100" src="gambarProjectCss/gambar1.jpg" alt="">
+                                                </div>
+                                                <div class="col-3">
+                                                    <img class="w-100" src="gambarProjectCss/gambar2.png" alt="">
+                                                </div>
+                                                <div class="col-3">
+                                                    <img class="w-100" src="gambarProjectCss/gambar3.png" alt="">
+                                                </div>
+                                                <div class="col-3">
+                                                    <img class="w-100" src="gambarProjectCss/gambar4.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--akhir article 3-->
+                
+            </div>
+        </div>
+        <hr>
+        <!--article akhir-->
+        
+        <!--guestbook awal-->
+        <div id="guestbook" class="container-fluid mt-3 smt-guestbook banner-guest">
+            <h1 class="text-center mt-4">~ guestbook ~</h1>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <form class="was-validated">
+                        <div class="mb-3">
+                            <label for="validationTextarea" class="form-label">Nama lengkap</label>
+                            <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                            <div class="invalid-feedback">
+                                Please enter a message in the textarea.
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        
+                        
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+                            <label class="form-check-label" for="validationFormCheck2">perempuan</label>
+                        </div>
+                        
+                        <div class="form-check mb-3">
+                            <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+                            <label class="form-check-label" for="validationFormCheck3">laki - laki</label>
+                            <div class="invalid-feedback">Pilih salah satu</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <select class="form-select" required aria-label="select example">
+                                <option value="">pilih program studi</option>
+                                <option value="1">Sistem Informasi</option>
+                                <option value="2">Matematika</option>
+                                <option value="3">Teknik Informatika</option>
+                                <option value="3">Teknik Elektro</option>
+                                <option value="3">Teknik Industri</option>
+                            </select>
+                            <div class="invalid-feedback">Example invalid select feedback</div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="tel">No telfon</label></td>
+                            <input type="tel" id="phone" name="tel"
+                            pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}"
+                            required value="08XX-XXXX-XXXX">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <button class="btn btn-primary" type="submit" id="liveToastBtn">Submit form</button>
+                            <button type="reset" class="btn btn-secondary">Reset form</button>
+                            
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <h2 class="pb-3">Alamat kami</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.6307667233386!2d101.23409007472351!3d0.5555529994390151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMzMnMjAuMCJOIDEwMcKwMTQnMTIuMCJF!5e0!3m2!1sid!2sid!4v1759203245476!5m2!1sid!2sid" width="100%" height="8%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <!--guestbook akhir-->
+    </div>
+        
+        <div class="container-fluid text-center p-2 mb-2 bg-dark-subtle text-dark-emphasis">
+            <small>
+                    Program Studi Sistem Informasi UIN Suska Riau<br>
+                    All reserved - Copyright © 2025
+            </small>
+        </div>
+
+    
+
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
